@@ -102,6 +102,8 @@ h2 {
   }
 }
 
+/* PAGINA SETTINGS*/
+
 .bodySettings {
   background-color: #f3f3f3;
   color: #141414;
@@ -115,4 +117,10 @@ h2 {
 .settingsMain {
   width: 80%;
   margin: auto;
+  padding-top: 2.5em;
+}
+
+.blocco {
+  display: flex;
+  justify-content: space-between;
 }
