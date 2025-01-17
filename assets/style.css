@@ -3,6 +3,10 @@ body {
   background-color: #141414;
 }
 
+div.container-fluid {
+  padding: 0;
+}
+
 .instruments {
   display: flex;
   justify-content: space-between;
@@ -31,8 +35,33 @@ body {
   cursor: pointer;
 }
 
+.bi {
+  color: rgba(255, 255, 255, 0.596);
+}
 h2 {
   color: white;
   font-size: 1em;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+
+.footer {
+  max-width: 70%;
+  margin: auto;
+}
+
+.footer button {
+  font-size: 0.7em;
+  margin: 1.3em 0;
+  padding: 0.5em 0.8em;
+}
+
+.footer p {
+  font-size: 0.8em;
+  margin-bottom: 0.6em;
+}
+
+.footer > p {
+  font-size: 0.6em;
   margin-bottom: 1em;
 }
