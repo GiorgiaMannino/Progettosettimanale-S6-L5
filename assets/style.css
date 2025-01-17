@@ -1,7 +1,7 @@
 body {
   font-family: Verdana, sans-serif;
   background-color: #141414;
-  color: white;
+  color: rgb(216, 216, 216);
 }
 
 div.container-fluid {
@@ -75,5 +75,44 @@ h2 {
 
 .profileMain {
   width: 70%;
+  margin: auto;
+}
+
+.form-check-input {
+  background-color: transparent;
+  border: 1px solid rgb(216, 216, 216);
+  vertical-align: middle;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.form-check-input:checked {
+  background-color: #141414;
+  border-color: rgb(216, 216, 216);
+}
+
+.form-check-label {
+  margin-left: 0.5em;
+}
+
+@media (max-width: 767px) {
+  .col-sm-8 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+
+.bodySettings {
+  background-color: #f3f3f3;
+  color: #141414;
+}
+
+.bodySettings nav {
+  background-color: #141414;
+  color: #f3f3f3;
+}
+
+.settingsMain {
+  width: 80%;
   margin: auto;
 }
